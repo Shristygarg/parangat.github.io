@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    overflow-x: hidden;
+
+}
+.home{
+    background: url('../images/background.png');
+    
+    height: 730px;
+    background-size: cover;
+}
+  
+/* .bs-light{
+    opacity: 0;
+} */
+.home h{
+letter-spacing: 5px;
+}
+.home p{
+    letter-spacing: 1.2px;
+}
+/* #logo{
+    top: 70%;
+} */
+/* business */
+
+.business{
+    width: 100%;
+}
+h2{
+    letter-spacing: 3px;
+}
+.business .content p{
+    letter-spacing: 1.2px;
+}
+.build-img img{
+    /* height: 400px; */
+    /* width: 100%; */
+   border-radius: 20px;
+}
+.list-item ul{
+    column-count: 2;
+}
+.list-item li{
+    padding: 10px;
+}
+/* customer */
+.custom {
+    background-color: #F3F6FB;
+    width: 100%;
+}
+.custom h2{
+    letter-spacing: 2px;
+}
+/* .customer p{
+     max-width: 600px; 
+     line-height: 22px; 
+} */
+/* mobile */
+.mobile-app-development-process h2{
+    letter-spacing: 1px;
+}
+.mobile-app-development-process .container .img{
+    width: 100%;
+    text-align: center;
+}
+.mobile-app-development-process .container .img img{
+    width: 97%;
+}
+/* technology */
+.technology-stack-developing h2{
+    letter-spacing: 1.5px;
+    line-height: 45px;
+}
+.technology-stack-developing p{
+    letter-spacing: 1px;
+}
+.technology-stack-developing .row ul li{
+    line-height: 30px;
+}
+
+
+
+.accordion-button:not(.collapsed)::after{
+   
+   background-image: none;
+    content: "-";
+    font-size: 30px;
+    transform: none;
+     
+
+}
+.accordion-button:focus{
+    border-color: white;
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed){
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+.accordion-button::after{
+    background-image: none;
+    content: none;
+    background-repeat: no-repeat;
+    content: "+";
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.button{
+    font-family: none;
+    font-weight: bold;
+    
+}
+
+
+   
+/* book  */
+.book-consultation h2{
+    letter-spacing: 1.5px;
+}
+
+/* experience */
+.experience .container h2{
+    letter-spacing: 1.5px;
+}
+
+.slider .content{
+    padding-left: 150px;
+}
+.famous-android-apps .container h2{
+    letter-spacing: 1.2px;
+}
+.android-software-development .container h2{
+    letter-spacing: 0px;
+}
+.unlist{
+    padding-left: 1rem;
+}
+/* success */
+#success{
+    background: #F3F6FB;
+}
+.vedio img{
+    width: 200px;
+
+}
+/* awards */
+.awards{
+    background: #F3F6FB;
+}
+.faqs h2{
+    letter-spacing: normal;
+}
